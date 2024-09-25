@@ -39,6 +39,9 @@ namespace DuckAgency
             this.backButton = new System.Windows.Forms.Button();
             this.likeButton = new System.Windows.Forms.Button();
             this.subButton = new System.Windows.Forms.Button();
+            this.imageBox = new System.Windows.Forms.PictureBox();
+            this.descriptionBox = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox)).BeginInit();
             this.SuspendLayout();
             // 
             // homeButton
@@ -176,6 +179,28 @@ namespace DuckAgency
             this.subButton.MouseLeave += new System.EventHandler(this.subButton_MouseLeave);
             this.subButton.MouseUp += new System.Windows.Forms.MouseEventHandler(this.subButton_MouseUp);
             // 
+            // imageBox
+            // 
+            this.imageBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(177)))), ((int)(((byte)(138)))));
+            this.imageBox.Image = ((System.Drawing.Image)(resources.GetObject("imageBox.Image")));
+            this.imageBox.Location = new System.Drawing.Point(30, 82);
+            this.imageBox.Name = "imageBox";
+            this.imageBox.Size = new System.Drawing.Size(256, 256);
+            this.imageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imageBox.TabIndex = 7;
+            this.imageBox.TabStop = false;
+            // 
+            // descriptionBox
+            // 
+            this.descriptionBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(177)))), ((int)(((byte)(138)))));
+            this.descriptionBox.Font = new System.Drawing.Font("Montserrat SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.descriptionBox.ForeColor = System.Drawing.Color.White;
+            this.descriptionBox.Location = new System.Drawing.Point(308, 82);
+            this.descriptionBox.Name = "descriptionBox";
+            this.descriptionBox.Size = new System.Drawing.Size(288, 256);
+            this.descriptionBox.TabIndex = 8;
+            this.descriptionBox.Text = "Пол: Мужской\r\nИмя: Леха\r\nФамилия: Уткин\r\n\r\nОписание:\r\nГиря не воробей, выскользне" + "т, будет больно.";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -184,6 +209,8 @@ namespace DuckAgency
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(624, 441);
+            this.Controls.Add(this.descriptionBox);
+            this.Controls.Add(this.imageBox);
             this.Controls.Add(this.subButton);
             this.Controls.Add(this.likeButton);
             this.Controls.Add(this.backButton);
@@ -200,8 +227,13 @@ namespace DuckAgency
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DuckAgency | Главная";
+            ((System.ComponentModel.ISupportInitialize)(this.imageBox)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Label descriptionBox;
+
+        private System.Windows.Forms.PictureBox imageBox;
 
         private System.Windows.Forms.Button subButton;
 
