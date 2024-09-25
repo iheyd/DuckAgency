@@ -39,6 +39,7 @@ namespace DuckAgency
             // 
             // homeButton
             // 
+            this.homeButton.BackColor = System.Drawing.Color.Transparent;
             this.homeButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("homeButton.BackgroundImage")));
             this.homeButton.FlatAppearance.BorderSize = 0;
             this.homeButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -57,6 +58,7 @@ namespace DuckAgency
             // 
             // profileButton
             // 
+            this.profileButton.BackColor = System.Drawing.Color.Transparent;
             this.profileButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("profileButton.BackgroundImage")));
             this.profileButton.FlatAppearance.BorderSize = 0;
             this.profileButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -76,6 +78,7 @@ namespace DuckAgency
             // 
             // messageButton
             // 
+            this.messageButton.BackColor = System.Drawing.Color.Transparent;
             this.messageButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("messageButton.BackgroundImage")));
             this.messageButton.FlatAppearance.BorderSize = 0;
             this.messageButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
