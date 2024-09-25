@@ -11,3 +11,16 @@ C:\Users\0_ihe\RiderProjects\DuckAgency\DuckAgency\obj\Debug\DuckAgency.LoginFor
 C:\Users\0_ihe\RiderProjects\DuckAgency\DuckAgency\obj\Debug\DuckAgency.MainForm.resources
 C:\Users\0_ihe\RiderProjects\DuckAgency\DuckAgency\obj\Debug\DuckAgency.ProfileForm.resources
 C:\Users\0_ihe\RiderProjects\DuckAgency\DuckAgency\obj\Debug\DuckAgency.MatchmakerForm.resources
+C:\Users\0_ihe\RiderProjects\DuckAgency2\DuckAgency\bin\Debug\DuckAgency.exe.config
+C:\Users\0_ihe\RiderProjects\DuckAgency2\DuckAgency\bin\Debug\DuckAgency.exe
+C:\Users\0_ihe\RiderProjects\DuckAgency2\DuckAgency\bin\Debug\DuckAgency.pdb
+C:\Users\0_ihe\RiderProjects\DuckAgency2\DuckAgency\obj\Debug\DuckAgency.csproj.AssemblyReference.cache
+C:\Users\0_ihe\RiderProjects\DuckAgency2\DuckAgency\obj\Debug\DuckAgency.LoginForm.resources
+C:\Users\0_ihe\RiderProjects\DuckAgency2\DuckAgency\obj\Debug\DuckAgency.MainForm.resources
+C:\Users\0_ihe\RiderProjects\DuckAgency2\DuckAgency\obj\Debug\DuckAgency.MatchmakerForm.resources
+C:\Users\0_ihe\RiderProjects\DuckAgency2\DuckAgency\obj\Debug\DuckAgency.ProfileForm.resources
+C:\Users\0_ihe\RiderProjects\DuckAgency2\DuckAgency\obj\Debug\DuckAgency.Properties.Resources.resources
+C:\Users\0_ihe\RiderProjects\DuckAgency2\DuckAgency\obj\Debug\DuckAgency.csproj.GenerateResource.cache
+C:\Users\0_ihe\RiderProjects\DuckAgency2\DuckAgency\obj\Debug\DuckAgency.csproj.CoreCompileInputs.cache
+C:\Users\0_ihe\RiderProjects\DuckAgency2\DuckAgency\obj\Debug\DuckAgency.exe
+C:\Users\0_ihe\RiderProjects\DuckAgency2\DuckAgency\obj\Debug\DuckAgency.pdb
