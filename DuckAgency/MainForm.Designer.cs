@@ -39,6 +39,9 @@ namespace DuckAgency
             this.backButton = new System.Windows.Forms.Button();
             this.likeButton = new System.Windows.Forms.Button();
             this.subButton = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // homeButton
@@ -176,6 +179,26 @@ namespace DuckAgency
             this.subButton.MouseLeave += new System.EventHandler(this.subButton_MouseLeave);
             this.subButton.MouseUp += new System.Windows.Forms.MouseEventHandler(this.subButton_MouseUp);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(177)))), ((int)(((byte)(138)))));
+            this.pictureBox1.Location = new System.Drawing.Point(26, 86);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(256, 256);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(177)))), ((int)(((byte)(138)))));
+            this.label1.Font = new System.Drawing.Font("Montserrat SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(215)))), ((int)(((byte)(205)))));
+            this.label1.Location = new System.Drawing.Point(308, 86);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(288, 256);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Описание";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -184,6 +207,8 @@ namespace DuckAgency
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(624, 441);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.subButton);
             this.Controls.Add(this.likeButton);
             this.Controls.Add(this.backButton);
@@ -200,8 +225,13 @@ namespace DuckAgency
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DuckAgency | Главная";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
         }
+
+        private System.Windows.Forms.Label label1;
+
+        private System.Windows.Forms.PictureBox pictureBox1;
 
         private System.Windows.Forms.Button subButton;
 
