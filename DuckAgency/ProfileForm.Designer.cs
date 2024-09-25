@@ -39,7 +39,7 @@ namespace DuckAgency
             // 
             // homeButton
             // 
-            this.homeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(90)))), ((int)(((byte)(64)))));
+            this.homeButton.BackColor = System.Drawing.Color.Transparent;
             this.homeButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("homeButton.BackgroundImage")));
             this.homeButton.FlatAppearance.BorderSize = 0;
             this.homeButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -49,7 +49,7 @@ namespace DuckAgency
             this.homeButton.Name = "homeButton";
             this.homeButton.Size = new System.Drawing.Size(64, 64);
             this.homeButton.TabIndex = 0;
-            this.homeButton.UseVisualStyleBackColor = false;
+            this.homeButton.UseVisualStyleBackColor = true;
             this.homeButton.Click += new System.EventHandler(this.homeButton_Click);
             this.homeButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.homeButton_MouseDown);
             this.homeButton.MouseEnter += new System.EventHandler(this.homeButton_MouseEnter);
@@ -58,7 +58,7 @@ namespace DuckAgency
             // 
             // profileButton
             // 
-            this.profileButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(90)))), ((int)(((byte)(64)))));
+            this.profileButton.BackColor = System.Drawing.Color.Transparent;
             this.profileButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("profileButton.BackgroundImage")));
             this.profileButton.FlatAppearance.BorderSize = 0;
             this.profileButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -69,7 +69,7 @@ namespace DuckAgency
             this.profileButton.Name = "profileButton";
             this.profileButton.Size = new System.Drawing.Size(64, 64);
             this.profileButton.TabIndex = 2;
-            this.profileButton.UseVisualStyleBackColor = false;
+            this.profileButton.UseVisualStyleBackColor = true;
             this.profileButton.Click += new System.EventHandler(this.profileButton_Click);
             this.profileButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.profileButton_MouseDown);
             this.profileButton.MouseEnter += new System.EventHandler(this.profileButton_MouseEnter);
@@ -78,7 +78,7 @@ namespace DuckAgency
             // 
             // messageButton
             // 
-            this.messageButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(90)))), ((int)(((byte)(64)))));
+            this.messageButton.BackColor = System.Drawing.Color.Transparent;
             this.messageButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("messageButton.BackgroundImage")));
             this.messageButton.FlatAppearance.BorderSize = 0;
             this.messageButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -89,7 +89,7 @@ namespace DuckAgency
             this.messageButton.Name = "messageButton";
             this.messageButton.Size = new System.Drawing.Size(64, 64);
             this.messageButton.TabIndex = 1;
-            this.messageButton.UseVisualStyleBackColor = false;
+            this.messageButton.UseVisualStyleBackColor = true;
             this.messageButton.Click += new System.EventHandler(this.messageButton_Click);
             this.messageButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.messageButton_MouseDown);
             this.messageButton.MouseEnter += new System.EventHandler(this.messageButton_MouseEnter);
@@ -100,7 +100,7 @@ namespace DuckAgency
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(129)))), ((int)(((byte)(87)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(90)))), ((int)(((byte)(64)))));
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(624, 441);
@@ -110,6 +110,7 @@ namespace DuckAgency
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Location = new System.Drawing.Point(15, 15);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ProfileForm";

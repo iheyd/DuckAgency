@@ -49,37 +49,31 @@ namespace DuckAgency
         
         private void homeButton_MouseDown(object sender, MouseEventArgs e)
         {
-            homeButton.Size = new Size(homeButton.Width - 4, homeButton.Height - 4);
             homeButton.Location = new Point(homeButton.Location.X + 2, homeButton.Location.Y + 2);
         }
 
         private void homeButton_MouseUp(object sender, MouseEventArgs e)
         {
-            homeButton.Size = new Size(homeButton.Width + 4, homeButton.Height + 4);
             homeButton.Location = new Point(homeButton.Location.X - 2, homeButton.Location.Y - 2);
         }
         
         private void messageButton_MouseDown(object sender, MouseEventArgs e)
         {
-            messageButton.Size = new Size(messageButton.Width - 4, messageButton.Height - 4);
             messageButton.Location = new Point(messageButton.Location.X + 2, messageButton.Location.Y + 2);
         }
 
         private void messageButton_MouseUp(object sender, MouseEventArgs e)
         {
-            messageButton.Size = new Size(messageButton.Width + 4, messageButton.Height + 4);
             messageButton.Location = new Point(messageButton.Location.X - 2, messageButton.Location.Y - 2);
         }
         
         private void profileButton_MouseDown(object sender, MouseEventArgs e)
         {
-            profileButton.Size = new Size(profileButton.Width - 4, profileButton.Height - 4);
             profileButton.Location = new Point(profileButton.Location.X + 2, profileButton.Location.Y + 2);
         }
 
         private void profileButton_MouseUp(object sender, MouseEventArgs e)
         {
-            profileButton.Size = new Size(profileButton.Width + 4, profileButton.Height + 4);
             profileButton.Location = new Point(profileButton.Location.X - 2, profileButton.Location.Y - 2);
         }
         
@@ -100,6 +94,81 @@ namespace DuckAgency
             Hide();
             ProfileForm profileForm = new ProfileForm();
             profileForm.Show();
+        }
+        
+        private void dislikeButton_MouseEnter(object sender, EventArgs e)
+        {
+            dislikeButton.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "images", "DislikeLight.png"));
+        }
+        
+        private void dislikeButton_MouseLeave(object sender, EventArgs e)
+        {
+            dislikeButton.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "images", "Dislike.png"));
+        }
+        
+        private void backButton_MouseEnter(object sender, EventArgs e)
+        {
+            backButton.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "images", "BackLight.png"));
+        }
+        
+        private void backButton_MouseLeave(object sender, EventArgs e)
+        {
+            backButton.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "images", "Back.png"));
+        }
+        
+        private void likeButton_MouseEnter(object sender, EventArgs e)
+        {
+            likeButton.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "images", "LikeLight.png"));
+        }
+        
+        private void likeButton_MouseLeave(object sender, EventArgs e)
+        {
+            likeButton.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "images", "Like.png"));
+        }
+        
+        private void dislikeButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            dislikeButton.Location = new Point(dislikeButton.Location.X + 2, dislikeButton.Location.Y + 2);
+        }
+
+        private void dislikeButton_MouseUp(object sender, MouseEventArgs e)
+        {
+            dislikeButton.Location = new Point(dislikeButton.Location.X - 2, dislikeButton.Location.Y - 2);
+        }
+        
+        private void backButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            backButton.Location = new Point(backButton.Location.X + 2, backButton.Location.Y + 2);
+        }
+
+        private void backButton_MouseUp(object sender, MouseEventArgs e)
+        {
+            backButton.Location = new Point(backButton.Location.X - 2, backButton.Location.Y - 2);
+        }
+        
+        private void likeButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            likeButton.Location = new Point(likeButton.Location.X + 2, likeButton.Location.Y + 2);
+        }
+
+        private void likeButton_MouseUp(object sender, MouseEventArgs e)
+        {
+            likeButton.Location = new Point(likeButton.Location.X - 2, likeButton.Location.Y - 2);
+        }
+        
+        private void dislikeButton_Click(object sender, EventArgs e)
+        {
+            //
+        }
+        
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            //
+        }
+        
+        private void likeButton_Click(object sender, EventArgs e)
+        {
+            //
         }
     }
 }

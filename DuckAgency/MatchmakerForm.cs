@@ -49,37 +49,31 @@ namespace DuckAgency
         
         private void homeButton_MouseDown(object sender, MouseEventArgs e)
         {
-            homeButton.Size = new Size(homeButton.Width - 4, homeButton.Height - 4);
             homeButton.Location = new Point(homeButton.Location.X + 2, homeButton.Location.Y + 2);
         }
 
         private void homeButton_MouseUp(object sender, MouseEventArgs e)
         {
-            homeButton.Size = new Size(homeButton.Width + 4, homeButton.Height + 4);
             homeButton.Location = new Point(homeButton.Location.X - 2, homeButton.Location.Y - 2);
         }
         
         private void messageButton_MouseDown(object sender, MouseEventArgs e)
         {
-            messageButton.Size = new Size(messageButton.Width - 4, messageButton.Height - 4);
             messageButton.Location = new Point(messageButton.Location.X + 2, messageButton.Location.Y + 2);
         }
 
         private void messageButton_MouseUp(object sender, MouseEventArgs e)
         {
-            messageButton.Size = new Size(messageButton.Width + 4, messageButton.Height + 4);
             messageButton.Location = new Point(messageButton.Location.X - 2, messageButton.Location.Y - 2);
         }
         
         private void profileButton_MouseDown(object sender, MouseEventArgs e)
         {
-            profileButton.Size = new Size(profileButton.Width - 4, profileButton.Height - 4);
             profileButton.Location = new Point(profileButton.Location.X + 2, profileButton.Location.Y + 2);
         }
 
         private void profileButton_MouseUp(object sender, MouseEventArgs e)
         {
-            profileButton.Size = new Size(profileButton.Width + 4, profileButton.Height + 4);
             profileButton.Location = new Point(profileButton.Location.X - 2, profileButton.Location.Y - 2);
         }
         
