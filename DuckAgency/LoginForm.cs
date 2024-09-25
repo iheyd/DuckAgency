@@ -17,6 +17,11 @@ namespace DuckAgency
             InitializeComponent();
             ActiveControl = loginButton;
         }
+        
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
 
         private void loginText_Enter(object sender, EventArgs e)
         {

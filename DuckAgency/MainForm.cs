@@ -193,7 +193,9 @@ namespace DuckAgency
         
         private void subButton_Click(object sender, EventArgs e)
         {
-            //
+            Hide();
+            LoginForm loginForm = new LoginForm();
+            loginForm.Show();
         }
     }
 }
