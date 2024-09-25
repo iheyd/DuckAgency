@@ -126,6 +126,16 @@ namespace DuckAgency
             likeButton.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "images", "Like.png"));
         }
         
+        private void subButton_MouseEnter(object sender, EventArgs e)
+        {
+            subButton.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "images", "SubLight.png"));
+        }
+        
+        private void subButton_MouseLeave(object sender, EventArgs e)
+        {
+            subButton.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "images", "Sub.png"));
+        }
+        
         private void dislikeButton_MouseDown(object sender, MouseEventArgs e)
         {
             dislikeButton.Location = new Point(dislikeButton.Location.X + 2, dislikeButton.Location.Y + 2);
@@ -156,6 +166,16 @@ namespace DuckAgency
             likeButton.Location = new Point(likeButton.Location.X - 2, likeButton.Location.Y - 2);
         }
         
+        private void subButton_MouseDown(object sender, MouseEventArgs e)
+        {
+            subButton.Location = new Point(subButton.Location.X + 2, subButton.Location.Y + 2);
+        }
+
+        private void subButton_MouseUp(object sender, MouseEventArgs e)
+        {
+            subButton.Location = new Point(subButton.Location.X - 2, subButton.Location.Y - 2);
+        }
+        
         private void dislikeButton_Click(object sender, EventArgs e)
         {
             //
@@ -167,6 +187,11 @@ namespace DuckAgency
         }
         
         private void likeButton_Click(object sender, EventArgs e)
+        {
+            //
+        }
+        
+        private void subButton_Click(object sender, EventArgs e)
         {
             //
         }
